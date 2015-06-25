@@ -6,7 +6,28 @@ $icon-font-path: "../bower_components/bootstrap-sass-official/assets/fonts/boots
 // endbower
 
 @import "bsview.scss";
+@import "global/var.scss";
+@import "global/mixin.scss";
+@import "settings/asset-pipeline.scss";
+@import "icons.scss";
+@import "ui/icons.scss";
 
+
+// include VZ fonts
+@include font-face('Apex', #{$font-path}/apex-book-webfont, 400, normal);
+@include font-face('Apex-Medium', #{$font-path}/apex-medium-webfont, 500, normal);
+@include font-face('Apex-Bold', #{$font-path}/apex-bold-webfont, 700, normal);
+@include font-face('VerizonApex-BookItalic', #{$font-path}/VerizonApex-BookItalic, 400, italic);
+@include font-face('VerizonApex-MediumItalic', #{$font-path}/VerizonApex-MediumItalic, 500, italic);
+@include font-face('VerizonApex-BoldItalic', #{$font-path}/VerizonApex-BoldItalic, 700, italic);
+@include font-face('Glyphicons Halflings', #{$font-path}/glyphicons-halflings-regular);
+
+/** for testing purposes only - START **/
+
+h1,h2,h3,h4,h5,h6,ul li > a {
+  font-family: "Apex";
+}
+/*** for testing purposes only - END ***/
 
 .browsehappy {
   margin: 0.2em 0;
