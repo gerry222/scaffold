@@ -1,80 +1,10 @@
-//@import "variables";
-
-$icon-font-path: "../bower_components/bootstrap-sass-official/assets/fonts/bootstrap/";
 // bower:scss
-@import "bootstrap-sass-official/assets/stylesheets/_bootstrap.scss";
+@import "bootstrap-sass-official/assets/stylesheets/bootstrap";
 // endbower
 
-@import "bsview.scss";
-@import "global/var.scss";
-@import "global/mixin.scss";
-@import "settings/asset-pipeline.scss";
-@import "icons.scss";
-@import "ui/icons.scss";
+@import "mixins";        //Custom Mixins
+@import "variables";
 
-
-// include VZ fonts
-@include font-face('Apex', #{$font-path}/apex-book-webfont, 400, normal);
-@include font-face('Apex-Medium', #{$font-path}/apex-medium-webfont, 500, normal);
-@include font-face('Apex-Bold', #{$font-path}/apex-bold-webfont, 700, normal);
-@include font-face('VerizonApex-BookItalic', #{$font-path}/VerizonApex-BookItalic, 400, italic);
-@include font-face('VerizonApex-MediumItalic', #{$font-path}/VerizonApex-MediumItalic, 500, italic);
-@include font-face('VerizonApex-BoldItalic', #{$font-path}/VerizonApex-BoldItalic, 700, italic);
-@include font-face('Glyphicons Halflings', #{$font-path}/glyphicons-halflings-regular);
-
-/** for testing purposes only - START **/
-
-h1,h2,h3,h4,h5,h6,ul li > a {
-  font-family: "Apex";
-}
-/*** for testing purposes only - END ***/
-
-.browsehappy {
-  margin: 0.2em 0;
-  background: #ccc;
-  color: #000;
-  padding: 0.2em 0;
-}
-
-/* Custom page header */
-.header {
-  border-bottom: 1px solid #e5e5e5;
-  margin-bottom: 10px;
-
-  /* Make the masthead heading the same height as the navigation */
-  h3 {
-    margin-top: 0;
-    margin-bottom: 0;
-    line-height: 40px;
-    padding-bottom: 19px;
-  }
-}
-
-/* Custom page footer */
-.footer {
-  padding-top: 19px;
-  color: #777;
-  border-top: 1px solid #e5e5e5;
-}
-
-
-
-/* Main marketing message and sign up button */
-.jumbotron {
-  text-align: center;
-  border-bottom: 1px solid #e5e5e5;
-
-  .btn {
-    font-size: 21px;
-    padding: 14px 24px;
-  }
-}
-
-/* Supporting marketing content */
-.marketing {
-  margin: 40px 0;
-
-  p + h4 {
-    margin-top: 28px;
-  }
-}
+@import "bs_elements";
+@import "app";
+@import "bs_view";   //BootStrap-Elements.html
