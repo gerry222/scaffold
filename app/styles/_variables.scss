@@ -143,6 +143,42 @@ $icons: (
     warning: "\f11c",
 );
 
+
+//== Colors
+//
+//## Specify custom colors.
+
+$black:                 #000000;
+$tundora:               #4A4244;
+$silver-chalice:        #ACACAC;
+$white:                 #ffffff;
+
+//## Verizon Style Guide Colors.
+$vz-red:                #ED1C24;  // rgba(237,28,36,1)    hsla(358,85%,52%,1)   #ED1C24  **PRIMARY
+$vz-dark-gray:          #585A5D;  // rgba(88,90,93,1)     hsla(216,3%,35%,1)    #585A5D  **SECONDARY
+$vz-light-gray:         #D2D3D4;  // rgba(210,211,212)    hsla(210,2%,83%,1)    #D2D3D4  **SECONDARY
+$vz-white:              #FFFFFF;  // rgba(0,0,0,1)        hsla(0,0%,0%,1)       #FFFFFF  **SECONDARY
+$vz-neptune:            #73B9B0;  // rgba(115,185,176,1)  hsla(172,33%,59%,1)   #73B9B0  **TERTIARY
+$vz-white-lilac:        #EEF1F9;  // rgba(238,241,249,1)  hsla(224,48%,95%,1)   #EEF1F9  **TERTIARY
+$vz-yellow:             #FADF4C;  // rgba(250,223,75,1)   hsla(51,95%,64%,1)    #FADF4C  **TERTIARY
+$vz-green:              #4A9A4D;  // rgba(74,154,77,1)    hsla(122,35%,45%,1)   #4A9A4D  **TERTIARY
+$vz-blue:               #3B73B0;  // rgba(59,115,176,1)   hsla(211,50%,46%,1)   #3B73B0  **TERTIARY
+$vz-roti:               #C49F39;  // rgba(196,159,57,1)   hsla(44,55%,50%,1)    #C49F39  **TERTIARY
+$vz-dusty-gray:         #9F9797;  // rgba(159,151,151)    hsla(0,4%,61%,1)      #9F9797  **TERTIARY
+$vz-hopbush:            #92669F;  // rgba(210,102,159)    hsla(328,55%,61%)     #92669F  **TERTIARY
+$vz-vivid-violet:       #7F3483;  // rgba(127,52,131)     hsla(297,43%,36%)     #7F3483  **TERTIARY
+$vz-boston-blue:        #3195A9;  // rgba(49,149,169)     hsla(190,55%,43%)     #3195A9  **TERTIARY
+$vz-light-red:          #f7c8c8;  // rgba(127,52,131)     hsla(297,43%,36%)     #7F3483  **TERTIARY
+$vz-light-green:        #ceffce;  // rgba(49,149,169)     hsla(190,55%,43%)     #3195A9  **TERTIARY
+
+//## Bootstrap Branding Colors.
+$brand-primary:         #428BCA;  // rgba(66,139,201,1)   hsla(208,56%,53%,1)   #428BCA
+$brand-success:         #5CB85C;  // rgba(92,184,92,1)    hsla(120,39%,54%,1)   #5CB85C
+$brand-info:            #5BC0DE;  // rgba(91,192,222,1)   hsla(194,66%,61%,1)   #5BC0DE
+$brand-warning:         #F0AD4E;  // rgba(240,173,73,1)   hsla(35,84%,62%,1)    #F0AD4E
+$brand-danger:          #D9534F;  // rgba(217,83,79,1)    hsla(2,64%,58%,1)     #D9534F
+
+
 //== Components
 //
 //## Define common padding and border radius sizes and more. Values based on 14px text and 1.428 line-height (~20px to start).

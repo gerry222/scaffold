@@ -91,3 +91,38 @@
 .icon-search:before { content: "\f114"; }
 .icon-trash:before { content: "\f12a"; }
 .icon-warning:before { content: "\f11c"; }
+
+
+//  <!-- Colors
+//  ================================================== -->
+.color-swatch {
+    
+  &.big { width: 100%; }
+  &.medium { width:100%; }
+
+  &.black { background-color: $black; }
+  &.tundora { background-color: $tundora; }
+  &.silver-chalice { background-color: $silver-chalice; }
+
+  &.vz-red { background-color: $vz-red; }
+  &.vz-dark-gray { background-color: $vz-dark-gray; }
+  &.vz-light-gray { background-color: $vz-light-gray; }
+  &.vz-white { background-color: $vz-white; border:1px solid; border-color: $vz-light-gray; }
+  &.vz-neptune { background-color: $vz-neptune; }
+  &.vz-white-lilac { background-color: $vz-white-lilac; }
+  &.vz-yellow { background-color: $vz-yellow; }
+  &.vz-green { background-color: $vz-green; }
+  &.vz-blue { background-color: $vz-blue; }
+  &.vz-roti { background-color: $vz-roti; }
+  &.vz-dusty-gray { background-color: $vz-dusty-gray; }
+  &.vz-hopbush { background-color: $vz-hopbush; }
+  &.vz-vivid-violet { background-color: $vz-vivid-violet; }
+  &.vz-boston-blue { background-color: $vz-boston-blue; }
+
+  &.brand-primary { background-color: $brand-primary; }
+  &.brand-success { background-color: $brand-success; }
+  &.brand-info { background-color: $brand-info; }
+  &.brand-warning { background-color: $brand-warning; }
+  &.brand-danger { background-color: $brand-danger; }
+
+}
