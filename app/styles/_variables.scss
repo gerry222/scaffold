@@ -452,6 +452,9 @@ $container-lg:                 $container-large-desktop !default;
 //
 //##
 
+// nav
+$nav-transition_duration: .25s;
+
 // Basics of a navbar
 $navbar-height:                    50px !default;
 $navbar-margin-bottom:             $line-height-computed !default;

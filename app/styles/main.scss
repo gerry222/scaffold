@@ -3,7 +3,10 @@
 // endbower
 
 @import "mixins";        //Custom Mixins
+//@import "timing-functions"; 
 @import "variables";
+@import "prefixer";  
+
 
 @import "bs_elements";
 @import "app";
